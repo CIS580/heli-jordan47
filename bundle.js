@@ -109,7 +109,7 @@ masterLoop(performance.now());
  * the number of milliseconds passed since the last frame.
  */
 function update(elapsedTime) {
-  var speed = 1;
+  var speed = 5;
 
   // set the velocity
   player.velocity.x = 0;
